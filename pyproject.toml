@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pythonproject2222222"
+version = "0.1.0"
+description = ""
+authors = ["Зубайраева Ольга <vadelevich2013@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+[tool.poetry.scripts]
+get-sorted = 'sorter : select_sorted'
+get-banch = ' get_date : get_by_date '
+
+
+
+
